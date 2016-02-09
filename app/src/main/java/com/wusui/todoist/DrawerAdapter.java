@@ -23,7 +23,7 @@ public class DrawerAdapter extends ArrayAdapter<Drawer>{
 
     public View getView(int position, View convertView, ViewGroup parent){
         Drawer drawer = getItem(position);
-        View view = LayoutInflater.from(getContext()).inflate(resourceId, parent, true);
+        View view = LayoutInflater.from(getContext()).inflate(resourceId, parent,false);
         TextView drawerName = (TextView)view.findViewById(R.id.item_title);
         ImageView drawerImage = (ImageView)view.findViewById(R.id.icon);
 

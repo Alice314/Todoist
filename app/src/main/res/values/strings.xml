@@ -3,7 +3,8 @@
     <string name="action_edit"></string>
     <string name="action_search"></string>
     <string name="action_inform"></string>
-
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
     <string-array name="myarray">
         <item>收件箱</item>
         <item>今天</item>
@@ -21,4 +22,5 @@
     <item>@mipmap/ic9</item>
     <item>@mipmap/ic2</item>
 </integer-array>
+
 </resources>

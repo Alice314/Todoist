@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#ffffff">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0"
+        android:layout_weight="2"
         android:orientation="vertical"
         android:background="#f5572c">
         <LinearLayout
@@ -36,7 +36,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="number"
-            android:textColor="#fff"
+            android:textColor="#ffffff"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"/>
     </LinearLayout>
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="6"
-        android:background="#ffffff"
+        android:background="#fff"
         android:choiceMode="singleChoice"
         android:layout_marginTop="5dp"
         android:divider="@null"
@@ -54,7 +54,7 @@
     android:layout_width="match_parent"
     android:layout_height="0dp"
     android:layout_weight="2"
-    android:background="#ffffff"
+    android:background="#fff"
     android:layout_marginTop="5dp"
     android:orientation="vertical">
 <LinearLayout
@@ -73,15 +73,17 @@
         android:background="#ffffff"
         android:clickable="true"
         android:gravity="center_vertical">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic6"/>
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/ic6"/>-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="设置" />
+            android:text="设置"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
