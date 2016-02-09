@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Todoist</string>
+    <string name="action_edit"></string>
+    <string name="action_search"></string>
+    <string name="action_inform"></string>
+
+    <string-array name="myarray">
+        <item>收件箱</item>
+        <item>今天</item>
+        <item>未来7天</item>
+        <item>项目</item>
+        <item>标签</item>
+        <item>过滤器</item>
+        <!--<item>设置</item>-->
+    </string-array>
+<integer-array name="yourarray">
+    <item>@mipmap/ic7</item>
+    <item>@mipmap/ic3</item>
+    <item>@mipmap/ic700</item>
+    <item>@mipmap/ic1_small</item>
+    <item>@mipmap/ic9</item>
+    <item>@mipmap/ic2</item>
+</integer-array>
+</resources>
