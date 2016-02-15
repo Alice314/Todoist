@@ -13,6 +13,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".FirstActivity">
+        </activity>
+        <activity android:name=".FirstItemActivity"></activity>
+        <activity android:name=".SecondItemActivity"></activity>
+        <activity android:name=".ThirdItemActivity"></activity>
     </application>
 
 </manifest>
