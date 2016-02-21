@@ -6,4 +6,6 @@
     <item name="ic_xiangmu" type="mipmap">@mipmap/ic_xiangmu</item>
     <item name="ic_biaoqian" type="mipmap">@mipmap/ic_biaoqian</item>
     <item name="ic_guolvqi" type="mipmap">@mipmap/ic_guolvqi</item>
+
+
 </resources>
