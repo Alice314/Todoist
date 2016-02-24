@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/four"
+        android:title="优先级4"
+        android:orderInCategory="90"/>
+    <item android:id="@+id/three"
+        android:title="优先级3"
+        android:orderInCategory="90"/>
+    <item android:id="@+id/two"
+        android:title="优先级2"
+        android:orderInCategory="90"/>
+    <item android:id="@+id/one"
+        android:title="优先级1"
+        android:orderInCategory="90"/>
+</group>
+</menu>
