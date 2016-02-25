@@ -66,7 +66,7 @@ public class MyActivity extends AppCompatActivity implements NavigationView.OnNa
                 if (id == R.id.action_notify) { //noinspection SimplifiableIfStatement
                     NavigationView RightNavigationView = (NavigationView)findViewById(R.id.nav_view_right);
 
-
+//去死吧！全是红色的！！！！！
                 }    return true;
             }
         });
